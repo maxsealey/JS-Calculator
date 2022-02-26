@@ -14,3 +14,13 @@ body {
 	font-family:'Playfair Display',Arial,Times,sans-serif;
 }
 
+#contain {
+	height:650px;
+    width:400px;
+    margin:auto;
+    margin-top:0;
+    background-color: rgb(187, 187, 187);
+    border:5px black solid;
+    contain:content;
+	border-radius: 3px;
+}
