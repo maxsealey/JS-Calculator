@@ -2,18 +2,51 @@
 <html lang = 'en'>
     <header>
         <title>JavaScript Calculator</title>
-        <meta description = "Basic JavaScript Calulator created by Max Sealey to practice HTML/CSS/JavaScript skills
-        with low-level project">
+        <meta description = "Basic JavaScript Calulator by Max Sealey">
         <meta charset = "utf-8">
 	    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'> <!--Playfair Display font-->
+        <link rel="stylesheet" type="text/css" href="./style.css" />
     </header>
+
     <body>
-        <div id = "contain">
-            <div id = "calc">
-            
+        <div id = "container">
+            <div id = "calculator">
+                <div class="display"></div>
+                <div class="row">
+                    <button class = "num" class = "7">7</button>
+                    <button class = "num" class = "8">8</button>
+                    <button class = "num" class = "9">9</button>
+                    <button class = "operator" class = "+">+</button>
+                </div>
+                <div class="row">
+                    <button class = "num" class = "4">4</button>
+                    <button class = "num" class = "5">5</button>
+                    <button class = "num" class = "6">6</button>
+                    <button class = "operator" class = "-">-</button>
+                </div>
+                <div class="row">
+                    <button id = "number" class = "1">1</button>
+                    <button id = "number" class = "2">2</button>
+                    <button id = "number" class = "3">3</button>
+                    <button id = "operator" class = "*">*</button>
+                </div>
+                <div class="row">
+                    <button id = "number" class = "0">0</button>
+                    <button class = "clear">C</button>
+                    <button id = "decimal" class = ".">.</button>
+                    <button id = "operator" class = "/">/</button>
+                </div>
+               <div class = "enter">
+                   <button id = "calculate">Calculate</button>
+               </div>
             </div>
-        </div> 
+        </div>
+
+        <footer>
+            <p>JavaScript Calculator by Max Sealey 2022</p>
+        </footer>
+
         <script src = "script.js"></script>
     </body>
 </html>
