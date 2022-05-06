@@ -1,10 +1,6 @@
-// Preliminary Script - will further modularize later on
-const container = document.getElementById("contain")
-const calculator = document.getElementById("calc")
-
-/*
-// Display
-// 0-9
-// + - / * () ^2 = clear
-// 18 buttons
-*/
+const allButtons = document.querySelectorAll('button')
+const numButtons = document.querySelectorAll('.num')
+const operatorButtons = document.querySelectorAll('.operator')
+const clearButton = document.querySelector('#clear')
+const decimalButton = document.querySelector('#decimal')
+const enterButton = document.querySelector('#calculate')
