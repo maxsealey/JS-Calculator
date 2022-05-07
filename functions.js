@@ -20,8 +20,20 @@ function operation(num1, num2, operator) {
 
     switch(operator) {
         case '+':
+            result = add(num1, num2)
+            return result
+            break
         case '-':
+            result = subtract(num1, num2)
+            return result
+            break
         case '*':
+            result = multiply(num1, num2)
+            return result
+            break
         case '/':
+            result = divide(num1, num2)
+            return result
+            break
     }
 }
